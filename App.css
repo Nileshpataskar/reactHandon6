@@ -1,0 +1,127 @@
+body
+{
+  background-color: antiquewhite;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.navbar
+{
+  display: flex;
+  justify-content: space-evenly;
+  background-color:rgb(59, 59, 59);
+}
+.link
+{
+  text-decoration: none;
+  color: rgb(211, 211, 211);
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+.head
+{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.table
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.table2
+{
+  width: 100vw;
+  height: 450px;
+  text-align: center;
+}
+.heading
+{
+  background-color: rgb(244, 244, 244);
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+.btn
+{
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: rgb(72, 72, 73);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.new
+{
+  background-color: rgb(245, 245, 245);
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align:center ;
+  line-height: 80px;
+  color:rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.main
+{
+  width: 100vw;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+.child1
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.inp
+{
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 5px;
+}
+.new2
+{
+  background-color: rgb(248, 248, 248);
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align:center ;
+  line-height: 80px;
+  color:black;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.submit
+{
+  width: 200px;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid black;
+  border-radius: 30px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.submit:hover
+{
+  background-color: rgb(106, 106, 106);
+}
